@@ -4,10 +4,11 @@
 
 **Pick only subset of properties from json schema. Inspired by lodash _.pick(), that does the same, but for the objects.** ✨
 
+This is a very simple script that picks only the subset of the properties from the JSON schema. It also returns the subset of the *required* fields from JSON schema.
 
 # Installation
 ```sh
-npm -i json-schema-pick
+npm i json-schema-pick
 ```
 
 # Usage

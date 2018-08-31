@@ -1,0 +1,17 @@
+{
+  "env": {
+    "development": {
+      "presets": ["env", "stage-3"],
+      "plugins": [
+        "add-module-exports"
+      ]
+    },
+    "production": {
+      "presets": ["env", "stage-3", "minify"],
+      "plugins": [
+        "add-module-exports"
+      ]
+    }
+  }
+}
+
